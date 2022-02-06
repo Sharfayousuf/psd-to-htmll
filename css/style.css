@@ -1,0 +1,276 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+ }
+ header{
+        width: 100%;
+        float: left;
+        background-color:aquamarine;    
+ }
+
+ .logo{
+       width:30%;
+       float: left;
+ }
+
+ .logo h1{
+         color:orange;
+         font-size: 45px;
+         margin: 10px 0px;
+ }
+ .logo h1 span{
+          color:orangered;
+ }
+ .menu{
+       width: 65%;
+       float: left;
+ }
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+        display: inline-block;
+        margin: 24px 10px;
+        padding: 0px 20px;
+}
+nav ul li a{
+        text-decoration: none;
+        font-size: 24px;
+      
+}
+
+nav ul li a:hover{
+         color:white;
+         background-color: deeppink;
+         transition: 0.5s ease;
+         padding:5px 10px;
+         border-radius: 5px;
+}
+.icons{
+    width: 5%;
+    float: left;
+}
+.icons ul{
+    list-style: none;
+}
+         
+.icons ul li{
+     display:inline-block;
+     margin: 28px 0px;
+}
+
+/* banner section */
+
+.banner{
+     background: url(../img/bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     float: left;
+     padding-top:20px;
+     padding-bottom: 700px;;
+}
+
+.banner-main{
+       text-align: center;
+       padding-top:600px;
+}
+.banner-main h2{
+         font-size: 120px;
+         color:rgb(230, 218, 227);
+         padding-bottom: 20px;
+}
+.banner-main span{
+         display: block;
+         border-bottom: 3px solid rgb(233, 11, 196);
+         width:100%;
+         margin: 20px auto;
+         
+}
+.banner-main p{
+         font-size: 40px;
+         color:thistle;
+        margin-top: 10px;
+        margin-bottom: 80px;
+}
+
+.banner-btn{
+        background-color:rgb(228, 9, 137);
+        padding:10px 20px;
+        font-size: 20px;
+        margin:20px 0px;
+        border-radius: 10px ;
+       color:wheat;
+        
+}
+
+/*content*/
+
+.content{
+       width:100%;
+         
+       background-color: rgb(184, 190, 190);
+      
+      
+}
+
+.content h3{
+          font-size: 40px;
+          text-align:center;
+         margin: 50px 0px;
+          color:chocolate;
+}
+
+.content p{
+          font-size: 25px;
+          text-align: center;
+          padding-bottom: 50px;
+}
+/* service section*/
+
+.service{
+      width: 100%;
+      float: left;
+    
+}
+
+.service-one{
+      width: 33.33%;
+      float: left;
+      text-align: center;
+      background-color:rgb(53, 69, 207);
+      color: white;
+      padding: 90px 0px;
+} 
+.service-one-img{
+      padding: 10px 0px;
+}
+
+
+.service-one-h2{
+       font-size: 35px;
+       color: red;
+}
+
+
+.service-one-p{
+     
+}
+
+.service-two{
+      width: 33.33%;
+      float: left;
+      text-align: center;
+      background-color:rgb(53, 69, 207);
+      color: white;
+      padding: 90px 0px;
+      
+} 
+.service-two-img{
+        
+}
+
+
+.service-two-h2{
+          
+}
+
+
+.service-two-p{
+
+}
+
+.service-three{
+      width: 33.33%;
+      float: left;
+      text-align: center;
+      background-color:rgb(53, 69, 207);
+      color: white;
+      padding: 90px 0px;
+      
+} 
+.service-three-img{
+        
+}
+
+
+.service-three-h2{
+          
+}
+
+
+.service-three-p{
+
+}
+ 
+/*gallery section*/
+
+.gallery{
+      width:100%;
+      float: left;
+      background-color: rgb(235, 231, 235);
+}
+.gallery-h2{
+      text-align: center;
+      padding: 20px;
+      
+}
+.gallery-p{
+      text-align: center;
+
+}
+.gallery-one{
+      width: 33.33%;
+      
+}
+
+.gallery-one-img{
+
+}
+.gallery-two{
+        width: 33.33%;
+}
+
+.gallery-two-img{
+
+}
+
+.gallery-three{
+      width: 33.33%;
+}     
+.gallery-three-img{
+
+}
+
+
+/*footer section*/
+
+.footer{
+      background: rgb(139, 143, 141);
+}
+
+.footer-main{
+      text-align: center;
+}
+.footer-main-h1{
+        color:violet;
+        padding: 20px 0px;
+}
+
+.footer-main-p{
+
+}
+
+.form-control{
+      width: 70%;
+}
+
+.submit-btn{
+
+}
